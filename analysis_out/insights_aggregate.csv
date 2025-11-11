@@ -1,0 +1,13 @@
+category,count,avg_confidence,examples
+netcode/desync,810,0.8875308641975308,optimize server synchronization; Optimize server synchronization and improve teamwork features.; optimize server synchronization
+weapon/ai balance,114,0.8675438596491228,Add option to craft higher level guns quickly using a slider.; rebalance weapon damage curves; rebalance weapon damage curves
+other,106,0.8981132075471698,Improve character customization options; Add warning message about sleep disruption; Implement defibrillators in the game for players to use on downed enemies.
+performance/fps,66,0.8515151515151516,"Improve AI performance; optimize gun damage curves, balance weapon damage and survivability mechanics, implement anti-griefing measures; Add PvE mode for players who don't want to waste time scavenging loot drops and get extract camped at the elevator."
+pve/mission loop,37,0.9405405405405405,Add PvE only mode; Add PvE mode; Add PVE only mode
+social experience,17,0.8941176470588236,Add ability to kick uncooperative players from squad; Add Arabic language support; Implement social features to allow players to connect and form friendships within the game.
+pvp experience,12,0.9166666666666666,Add a camera give-away feature to reduce camping behavior; Investigate and address player's concerns about Grec DH's camping behavior; Implement a certain distance around exfil that prevents camping and make PvE mode only
+matchmaking/servers,9,0.9555555555555555,separate PvP and PvE servers; Create dedicated duo servers; Fix duo queue
+ui/ux/controls,6,0.8416666666666667,"Improve graphics and implement better 3rd person camera controls; Implement controls for managing streamer behavior; Improve inventory management system by adding more sorting and filtering options, as well as the ability to easily sell unwanted items."
+stability/crashes,4,0.925,"Add skill resets / rebirths to allow players to change their skill trees; Fix extract-point campers, toxic players that lie to you that they are friendly, general game crashes; Change hornet hit points to make it less frustrating for solo players."
+bugs/polish,4,0.875,Fix bugs in the game; Fix gameplay bug causing players to be randomly shot in elevators; Fix bugs in the game
+anti-cheat,2,1.0,fix foliage cheat; Fix cheating system

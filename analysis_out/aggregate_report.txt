@@ -1,0 +1,12 @@
+{
+"original_review": "Steam reviews for a video game",
+"summary": "The most common tasks suggested by players are optimizing server synchronization, rebalancing weapon damage curves, and improving gameplay mechanics. Developers should prioritize these tasks to improve the overall player experience.",
+"likes": [
+"optimize server synchronization",
+"rebalance weapon damage curves",
+"improve gameplay mechanics"
+],
+"dislikes": [],
+"task": "Optimizing server synchronization, rebalancing weapon damage curves, and improving gameplay mechanics are the most critical actionable themes.",
+"self_confidence": 90
+}

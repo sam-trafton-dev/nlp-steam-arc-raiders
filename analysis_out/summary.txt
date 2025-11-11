@@ -1,0 +1,16 @@
+Total analyzed reviews: 18,035
+Average sentiment: 0.358
+Positive share (>0.2): 64.0%
+Negative share (<-0.2): 12.6%
+
+Mean positive word ratio: 0.313
+Mean neutral ratio: 0.607
+Mean negative ratio: 0.069
+
+Average upvotes per review: 0.35
+Average funny votes per review: 0.08
+Median playtime before review (hrs): 30.4
+
+Sentiment std deviation: 0.497 (spread of opinions)
+Most negative review sentiment: -1.000
+Most positive review sentiment: 1.000

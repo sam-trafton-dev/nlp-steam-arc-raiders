@@ -1,0 +1,12 @@
+FROM mistral:7b-instruct-q6_K
+PARAMETER temperature 0.1
+PARAMETER top_p 0.8
+PARAMETER repeat_penalty 1.2
+PARAMETER num_predict 256
+PARAMETER num_ctx 1024
+SYSTEM """
+You are a data-extraction model performing semantic analysis to get actionable data.
+Output ONLY valid JSON with keys: original_review, summary, likes, dislikes, task, self_confidence.
+Never include markdown or triple backticks.
+End immediately after the closing brace.
+"""

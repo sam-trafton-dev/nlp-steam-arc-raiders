@@ -1,0 +1,36 @@
+Overall tone
+
+Average sentiment = 0.36 (VADER scale –1 to +1) → clearly positive overall.
+
+64 % of reviews are positive (> 0.2) vs 12.5 % negative (< –0.2).
+Roughly a 5 : 1 ratio of favorable to unfavorable reviews, consistent with a “Very Positive” Steam rating.
+
+Intensity and agreement
+
+Std dev ≈ 0.50 means opinions vary widely: some strongly positive, some strongly negative, but the midpoint skews positive.
+Not “overwhelmingly” positive, yet solidly favorable.
+
+Language composition
+
+Mean text composition:
+
+Positive = 0.31
+
+Neutral = 0.61
+
+Negative = 0.07
+→ Reviews contain mostly neutral language with one-third explicitly positive tone, little negativity.
+
+Engagement and context
+
+Median playtime ≈ 33 hours before writing a review → players are reviewing after real experience, not quick refunds.
+
+Votes_up ≈ 0.36, funny ≈ 0.08 → low community interaction; typical for a newly released or niche title.
+
+Range of opinion
+
+Full range from –1.0 to +1.0 shows presence of a small but strong minority of negative reviews balanced by many enthusiastic ones.
+
+Summary
+
+Player sentiment is broadly positive with moderate disagreement: most reviewers liked the game, a small subset disliked it strongly, and the language across reviews remains mostly neutral or mildly supportive. The data indicates a healthy reception rather than polarized hype or backlash.
