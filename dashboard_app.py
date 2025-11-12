@@ -254,6 +254,6 @@ st.dataframe(
 
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown(
-    f"<div style='text-align:center;color:{colors['accent']};font-weight:bold;'>— End of Report —</div>",
+    f"<div style='text-align:center;color:{colors['accent']};font-weight:bold;'>— Thanks for Clicking! —</div>",
     unsafe_allow_html=True
 )
