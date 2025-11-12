@@ -97,11 +97,12 @@ if report_path.exists():
     with open(report_path, "r", encoding="utf-8") as f:
         agg_report = json.load(f)
 
-    st.markdown("### 🧭 Median Review Summary")
+    st.markdown("### Median Review Summary")
     st.markdown(
         f"""
         This synthesized insight represents the **median player sentiment and aggregated task recommendations**  
-        after analyzing **≈18 000 Arc Raiders reviews** through the full NLP and LLM pipeline.
+        after analyzing **≈18 000 Arc Raiders reviews** through the full NLP and LLM pipeline(fine-tuned Mistral).
+        Overall, server synchronization issues are the most identified complaints inside negative and positive reviews.
         """,
         unsafe_allow_html=True,
     )
@@ -115,7 +116,6 @@ if report_path.exists():
             **Top Inferred Development Priorities:**  
             - {agg_report["likes"][0] if len(agg_report["likes"]) > 0 else "—"}  
             - {agg_report["likes"][1] if len(agg_report["likes"]) > 1 else "—"}  
-            - {agg_report["likes"][2] if len(agg_report["likes"]) > 2 else "—"}
 
             **Confidence:** {agg_report.get("self_confidence", 0)} %
             """,
