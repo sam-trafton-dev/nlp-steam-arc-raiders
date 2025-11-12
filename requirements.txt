@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+tqdm
+requests
+nltk
+scikit-learn
+rake-nltk
+python-dotenv
