@@ -192,31 +192,34 @@ if "bucket" in sent.columns:
             """
             **Overall tone**  
             • Average sentiment = 0.36 (VADER scale –1 to +1) → clearly positive overall.  
-            • 64 % positive (> 0.2) vs 12.5 % negative (< –0.2) → roughly a 5 : 1 favorable ratio (“Very Positive”).  
+            • The distribution shows a strong positive bias, consistent with a “Very Positive” Steam rating.  
+            • Most players express enjoyment or satisfaction, with only a small minority showing frustration.  
 
             **Intensity & agreement**  
-            • Std dev ≈ 0.50 → wide variation, but midpoint skews positive.  
-            • Not “overwhelmingly” positive, yet solidly favorable.  
+            • Std dev ≈ 0.50 → opinions are varied, meaning while the majority enjoyed the game, a vocal minority had negative experiences.  
+            • The median = 0.47 confirms that most reviewers are firmly on the positive side of neutral.  
+            • Not “overwhelmingly” positive, but definitely solidly favorable.  
 
             **Language composition**  
             • Positive = 0.31  |  Neutral = 0.61  |  Negative = 0.07  
-            → mostly neutral language with one-third explicitly positive tone.  
+            → Reviews contain mostly neutral language with about one-third explicitly positive tone and very little negativity.  
+            • Players are giving measured, descriptive feedback rather than emotional reactions.  
 
             **Engagement & context**  
-            • Median playtime ≈ 33 h before review → informed feedback.  
-            • Up-votes ≈ 0.36  |  Funny ≈ 0.08 → low community interaction (typical for a new title).  
+            • Median playtime ≈ 30 hours (≈ 1,824 minutes) before review → players are writing after substantial gameplay, not quick impressions.  
+            • Up-votes ≈ 0.35  |  Funny ≈ 0.08 → community engagement is modest, typical for a relatively new or niche release.  
+            • These metrics indicate authentic, experience-based reviews rather than impulsive feedback.  
 
             **Range of opinion**  
-            • Scores span –1.0 → +1.0 → small but strong negative minority balanced by many enthusiastic players.  
+            • Sentiment values span the full range from –1.0 to +1.0 → small but passionate negative minority balanced by many enthusiastic supporters.  
+            • The spread is healthy — indicating real diversity of opinion rather than echo-chamber positivity.  
 
             **Summary**  
-            Player sentiment is broadly positive with moderate disagreement:  
-            most reviewers liked the game, a small subset disliked it strongly,  
-            and review language remains mostly neutral or mildly supportive —  
-            indicating a healthy, credible reception rather than polarized hype or backlash.
+            Player sentiment is broadly positive with moderate disagreement.  
+            Most reviewers enjoy the gameplay and overall experience, while a smaller group voices specific frustrations.  
+            The tone across reviews is balanced, credible, and data-backed — reflecting a genuinely well-received launch with room for improvement rather than polarized extremes.
             """
         )
-
     fig_pie = px.pie(
         sent, names="bucket",
         color="bucket",
