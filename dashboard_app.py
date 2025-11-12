@@ -4,7 +4,7 @@ import streamlit as st
 import plotly.express as px
 from pathlib import Path
 from urllib.parse import quote
-import plotly.graph_objects as go
+import json
 
 # --- Page configuration ---
 st.set_page_config(

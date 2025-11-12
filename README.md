@@ -56,6 +56,8 @@ Inspired by the **Arc Raiders logo** color palette:
 git clone https://github.com/YOUR_USERNAME/arc-raiders-insights-dashboard.git
 cd arc-raiders-insights-dashboard
 
+streamlit run dashboard_app.py
+
 An API key is not needed for the steam store API's
 
 Each step can be performed independently.
