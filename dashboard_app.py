@@ -102,7 +102,9 @@ if report_path.exists():
         f"""
         This synthesized insight represents the **median player sentiment and aggregated task recommendations**  
         after analyzing **≈18 000 Arc Raiders reviews** through the full NLP and LLM pipeline(fine-tuned Mistral).
-        Overall, server synchronization issues are the most identified complaints inside negative and positive reviews.
+        
+        
+        # Overall, server synchronization issues are the most identified complaints inside negative and positive reviews.
         """,
         unsafe_allow_html=True,
     )
