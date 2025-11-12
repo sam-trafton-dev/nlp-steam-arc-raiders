@@ -90,6 +90,42 @@ if logo_path.exists():
 
 st.markdown("<div class='main-title'>English Steam Review Insights</div>", unsafe_allow_html=True)
 
+# --- Aggregate Summary Section ---
+report_path = Path("analysis_out/aggregate_report.txt")
+
+if report_path.exists():
+    with open(report_path, "r", encoding="utf-8") as f:
+        agg_report = json.load(f)
+
+    st.markdown("### 🧭 Median Review Summary")
+    st.markdown(
+        f"""
+        This synthesized insight represents the **median player sentiment and aggregated task recommendations**  
+        after analyzing **≈18 000 Arc Raiders reviews** through the full NLP and LLM pipeline.
+        """,
+        unsafe_allow_html=True,
+    )
+
+    with st.container():
+        st.markdown(
+            f"""
+            **Summary:**  
+            > {agg_report.get("summary", "No summary available.")}
+
+            **Top Inferred Development Priorities:**  
+            - {agg_report["likes"][0] if len(agg_report["likes"]) > 0 else "—"}  
+            - {agg_report["likes"][1] if len(agg_report["likes"]) > 1 else "—"}  
+            - {agg_report["likes"][2] if len(agg_report["likes"]) > 2 else "—"}
+
+            **Confidence:** {agg_report.get("self_confidence", 0)} %
+            """,
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+else:
+    st.info("Aggregate report not found — run `aggregate_insights.py` first to generate the median review summary.")
+
 # --- KPI metrics ---
 col1, col2, col3 = st.columns(3)
 with col1:
