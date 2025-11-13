@@ -243,7 +243,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 # --- Task Drill-down ---
 st.subheader("Task Drill-down")
-min_conf = st.slider("Min confidence", 0.0, 1.0, 0.6, 0.05)
+min_conf = st.slider("Min confidence", 0.8, 1.0, 0.6, 0.05)
 cat = st.multiselect("Filter categories", sorted(tasks["category"].dropna().unique().tolist()))
 df = tasks.copy()
 df = df[df["category"].str.lower() != "other"]
