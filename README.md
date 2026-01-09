@@ -53,7 +53,7 @@ Inspired by the **Arc Raiders logo** color palette:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/arc-raiders-insights-dashboard.git
+git clone https://github.com/Ysam-trafton-dev/arc-raiders-insights-dashboard.git
 cd arc-raiders-insights-dashboard
 
 streamlit run dashboard_app.py
